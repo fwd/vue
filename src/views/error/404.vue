@@ -4,8 +4,6 @@
 
 <script>
 
-import store from '@/store/index'
-
 export default {
   components: {},
   data() {

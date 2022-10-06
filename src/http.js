@@ -1,4 +1,4 @@
-import Vue from 'vue'
+import vue from 'vue'
 
 // axios
 import axios from 'axios'
@@ -11,6 +11,6 @@ const http = axios.create({
   // headers: {'X-Custom-Header': 'foobar'}
 })
 
-Vue.prototype.$http = http
+vue.prototype.$http = http
 
 export default http
